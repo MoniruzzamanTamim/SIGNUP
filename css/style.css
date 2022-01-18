@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.form-design {
+   width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-item {
+    display: flex;
+   justify-content: space-between;
+    width: 800px;
+   box-shadow: whitesmoke 15px 10px 12px 13px;
+   border-radius: 10px;
+    padding: 50px 80px;
+}
+.form-left{
+    flex-basis: 50%;
+}
+.form-left-text{
+    text-align: center;
+    
+}
+.form-left-text h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+text-transform: uppercase;
+display: inline-block;
+border-bottom: 3px solid green;
+
+}
+
+.form-value {
+    position: relative;
+}
+.form-text  {
+   
+    display: block;
+    padding: 10px 0px 10px 40px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(28, 184, 8);
+}
+.form-icon{
+    
+    position: absolute;
+    top: 9px;
+    left: 0px;
+
+}
+.form-icon i{
+    font-size: 22px;
+    color: green;
+    
+}
+.form-icon i:hover{
+    color: greenyellow;
+    transform: rotate(360deg);
+    transform-origin: center;
+    transition: 1.9s;
+}
+.form-text:focus{
+   
+    outline: none;
+    color:rgb(28, 184, 8) ;
+}
+.form-text::placeholder{
+    font-size: 12px;
+    text-transform: capitalize;
+     color:rgba(28, 184, 8,.6);
+    
+}
+
+.formbtn{
+    font-size: 25px;
+    color: white;
+    background-color: greenyellow;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    transition: .3s;
+}
+.formbtn:hover{
+    background-color:green;
+    transition: 1.9s;
+    
+}
+.form-right{
+    flex-basis: 50%;
+
+    margin: auto;
+}
+.form-right img{
+   margin-left: 70px;
+   width: 300px;
+}
+.form-right img:hover{
+    width: 320px;
+    transition: .5s;
+    transform: rotate(360deg);
+    transform-origin: center;
+    transition-duration: 2.5s;
+}
